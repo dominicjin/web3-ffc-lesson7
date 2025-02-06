@@ -50,7 +50,9 @@ module.exports = {
         // outputFile: "gas-reportError.txt",
         noColors: true,
         currency: "USD",
-        token: "MATIC",
+        // token: "MATIC",
         coinmarketcap: COINMARKET_API_KEY,
+        L1: "ethereum",
+        L1Etherscan: ETHERSCAN_API_KEY,
     },
 }
